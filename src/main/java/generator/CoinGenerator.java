@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class CoinGenerator {
-    public static Change makeCoinNumberGenerator(int change){
+    public Change makeCoinNumberGenerator(int change){
         List<Integer> coins = new ArrayList<>();
         HashMap<Integer, Integer> coinNumber = new HashMap<>();
         Arrays.stream(Coin.values()).forEach(coin -> {
